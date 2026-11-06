@@ -86,7 +86,7 @@ ls "$HOME"/.claude/projects/*/memory/reference_qa_env_*.md 2>/dev/null  # 도메
 | `2차` | `PASS2-verify.md` + `FALSE-POSITIVES.md` + 판정서 화면 예시는 `MOCKUP.md`(뼈대 `verdict-template.html`) |
 | `3차` | `PASS3-contract.md` + `FALSE-POSITIVES.md` (2차 판정서에 합쳐 낸다) |
 | `명세대조` | 명세 먼저 읽고 → `PASS2-verify.md` 절차로 조항별 스윕 + `FALSE-POSITIVES.md` |
-| `재시험` | `RETEST.md` + `FALSE-POSITIVES.md` J항 (+ 틀 `retest-contract.md` · `retest-comment.md` · `scripts/`, 실패 목업은 `MOCKUP.md`). PASS1 · PASS2 는 읽지 않는다 |
+| `재시험` | `RETEST.md`(티켓이 10건을 넘으면 3-2 묶음 재시험) + `FALSE-POSITIVES.md` J항 (+ 틀 `retest-contract.md` · `retest-comment.md` · `scripts/`, 실패 목업은 `MOCKUP.md`). PASS1 · PASS2 는 읽지 않는다 |
 
 산출물 포맷은 `REPORT.md`.
 
